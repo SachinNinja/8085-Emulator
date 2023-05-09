@@ -1,0 +1,6 @@
+g++ -c 8085.cpp
+g++ -c instructions.cpp
+g++ -c RunMode.cpp
+g++ -c debugger.cpp
+g++ 8085.o instructions.o RunMode.o debugger.o
+./a.exe
